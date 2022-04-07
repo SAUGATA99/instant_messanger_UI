@@ -1,0 +1,11 @@
+.navbar_container {
+    // background-color: #3d03fc;
+    display: grid;
+    grid-template-rows: 1fr 20%;
+}
+
+.tabs_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
