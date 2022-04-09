@@ -4,4 +4,19 @@
     // border-bottom-left-radius: 20px;
     padding: 5px;
     margin-right: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.contacts_container {
+    background-color: red;
+}
+
+.converstaion_container {
+background-color: orange;
+}
+
+.buddy_profile {
+    background-color: green;
 }

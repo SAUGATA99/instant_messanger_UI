@@ -5,6 +5,7 @@ const navbar = (props) => {
         <div className={styles.navbar_container} >
             <div className={styles.tabs_container}>
                 <span>chats</span>
+                <span>profile</span>
                 <span>notes</span>
             </div>
             <div className={styles.settings} ><span>settings</span></div>
@@ -12,4 +13,4 @@ const navbar = (props) => {
     )
 }
 
-export {navbar}
+export default navbar
