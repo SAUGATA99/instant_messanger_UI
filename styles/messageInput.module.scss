@@ -1,0 +1,29 @@
+.container {
+    background-color: whitesmoke;
+    height: 50px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 50px 50px;
+    align-items: center;
+    border-radius: 30px;
+    
+    input {
+        font-size: 12px;
+        height: 100%;
+        border: none;
+        outline: none;
+        background-color: inherit;
+        color: grey;
+    }
+
+    i {
+        font-size: 20px;
+        margin: auto;
+        cursor: pointer;
+        color: black;
+
+        .send_message {
+            transform:rotate(-35degrees);
+        }
+    }
+}

@@ -1,0 +1,25 @@
+$item-height-width: 55px;
+
+.profile_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    min-width: 300px;
+    height: 75px;
+    padding: 10px;
+
+    font-size: 12px;
+
+    color: black;
+
+    border: 1px solid grey;
+    margin: 10px;
+    border-radius: 10px;
+
+    i {
+        border-radius: 50%;
+        background-color: grey;
+        padding: 10px;
+    }
+}

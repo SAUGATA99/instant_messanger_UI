@@ -6,7 +6,7 @@ const buddyProfileTile = (props) => {
             <img src="https://cdn.mos.cms.futurecdn.net/4hDq7TLz9y9MDvBm5uady6-970-80.jpg.webp" />
             <div className={styles.name_bio_container}>
                 <p>Mary Elizabeth Winstead</p>
-                <p>Scott Pilgrim vs the world</p>
+                <p>Last message</p>
             </div>
             <div className={styles.buddy_meta}>
                 <p className={styles.last_seen_day}>Today</p>

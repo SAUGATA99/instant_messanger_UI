@@ -1,0 +1,48 @@
+.container{
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    row-gap: 40px;
+
+    color: black;
+    
+    p {
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+    }
+
+    .buddy_profile {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+
+
+        img {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .name {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .bio {
+            font-size: 12px;
+        }
+    }
+    .buddy_meta {
+        font-size: 12px;
+        .email::before{
+            font-family: "Material Icons";
+            content: "email";
+        }
+    }
+}
